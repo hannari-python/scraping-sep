@@ -1,0 +1,32 @@
+[ERROR] 2018-09-18 23:13:03,738 __main__ <ipython-input-30-f3ae92183eb9>:28 ページが見つかりませんでした (logging_example)
+[ERROR] 2018-09-18 23:13:03,744 __main__ <ipython-input-30-f3ae92183eb9>:33 リクエスト中に例外が起きました: MissingSchema("Invalid URL '#invalid_url': No schema supplied. Perhaps you meant http://#invalid_url?",) (logging_example)
+Traceback (most recent call last):
+  File "<ipython-input-30-f3ae92183eb9>", line 31, in logging_example
+    r = requests.get('#invalid_url', timeout=1)
+  File "C:\Anaconda3\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Anaconda3\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Anaconda3\lib\site-packages\requests\sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "C:\Anaconda3\lib\site-packages\requests\sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Anaconda3\lib\site-packages\requests\models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "C:\Anaconda3\lib\site-packages\requests\models.py", line 379, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '#invalid_url': No schema supplied. Perhaps you meant http://#invalid_url?
+[ERROR] 2018-09-18 23:14:24,653 __main__ <ipython-input-31-b5d4d79af9a2>:28 ページが見つかりませんでした (logging_example)
+[ERROR] 2018-09-18 23:14:24,653 __main__ <ipython-input-31-b5d4d79af9a2>:28 ページが見つかりませんでした (logging_example)
+[ERROR] 2018-09-18 23:15:27,835 __main__ <ipython-input-32-46deb1ce025d>:28 ページが見つかりませんでした (logging_example)
+[ERROR] 2018-09-18 23:15:27,835 __main__ <ipython-input-32-46deb1ce025d>:28 ページが見つかりませんでした (logging_example)
+[ERROR] 2018-09-18 23:15:27,835 __main__ <ipython-input-32-46deb1ce025d>:28 ページが見つかりませんでした (logging_example)
+[ERROR] 2018-09-18 23:16:17,474 __main__ <ipython-input-33-da2c790c9e9b>:28 ページが見つかりませんでした (logging_example)
+[ERROR] 2018-09-18 23:16:17,474 __main__ <ipython-input-33-da2c790c9e9b>:28 ページが見つかりませんでした (logging_example)
+[ERROR] 2018-09-18 23:16:17,474 __main__ <ipython-input-33-da2c790c9e9b>:28 ページが見つかりませんでした (logging_example)
+[ERROR] 2018-09-18 23:16:17,474 __main__ <ipython-input-33-da2c790c9e9b>:28 ページが見つかりませんでした (logging_example)
+[ERROR] 2018-09-18 23:17:47,763 __main__ <ipython-input-35-0f8ab89d9fa8>:28 ページが見つかりませんでした (logging_example)
+[ERROR] 2018-09-18 23:17:47,763 __main__ <ipython-input-35-0f8ab89d9fa8>:28 ページが見つかりませんでした (logging_example)
+[ERROR] 2018-09-18 23:17:47,763 __main__ <ipython-input-35-0f8ab89d9fa8>:28 ページが見つかりませんでした (logging_example)
+[ERROR] 2018-09-18 23:17:47,763 __main__ <ipython-input-35-0f8ab89d9fa8>:28 ページが見つかりませんでした (logging_example)
+[ERROR] 2018-09-18 23:17:47,763 __main__ <ipython-input-35-0f8ab89d9fa8>:28 ページが見つかりませんでした (logging_example)
